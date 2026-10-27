@@ -1,0 +1,3 @@
+O encapsulamento expõe apenas a propriedade de leitura do destino e o método de redirecionamento, mantendo o atributo privado (__destino) escondido.
+A herança permite que o Atalho reaproveite a interface estrutural de Item (nome, pai, caminho e profundidade), ocultando a lógica de alocação de árvore.
+O polimorfismo garante que funções externas tratem o Atalho pelo contrato da interface Medivel, executando o cálculo de tamanho e a exibição de forma transparente.
